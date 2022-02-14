@@ -12,11 +12,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:gravity="center">
 
         <ImageView
-            android:layout_width="150dp"
+            android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:src="@drawable/nepp_logo"/>
 
@@ -25,22 +25,29 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:drawableStart="@drawable/id_icon"
-        android:text="이메일"
-        android:textColor="@color/white"/>
+        android:hint="   이메일"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/password_icon"
-        android:text="ㅇㅇㅇㅇㅇㅇㅇㅇ"
-        android:textColor="@color/white"/>
+        android:hint="   ㅇㅇㅇㅇㅇㅇㅇㅇ"
+        android:inputType="numberPassword"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="로그인"
-        android:backgroundTint="#FF808080"/>
+        android:backgroundTint="#424242"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -61,6 +68,11 @@
             android:text="비밀번호찾기"/>
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 
     <LinearLayout
         android:layout_width="match_parent"
